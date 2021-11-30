@@ -1,9 +1,17 @@
 # Starter
 
+#### Fork https://github.com/uchihamalolan/vite-react-ts
+
+增加
+```
+react-router redux @reduxjs/toolkit
+```
+
+
 ### Usage (with [degit](https://github.com/Rich-Harris/degit))
 
 ```bash
-degit uchihamalolan/vite-react-ts your-app-name
+degit tianvier/vite-react-ts your-app-name
 ```
 
 ### Overview
