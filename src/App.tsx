@@ -1,12 +1,15 @@
 import React from 'react';
-import { Header } from 'components/Header';
-import { Button } from 'components/Button';
+
+import { HashRouter } from 'react-router-dom';
+
+import RouterApp from '@/routers';
 
 function App() {
   return (
-    <div className="App">
-      <Header title="hola" />
-      <Button onClick={() => alert('hola')}>Heyo</Button>
+    <div className="App px-5">
+      <HashRouter>
+        <RouterApp />
+      </HashRouter>
     </div>
   );
 }

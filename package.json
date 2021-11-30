@@ -27,9 +27,15 @@
     "analyze": "source-map-explorer 'dist/assets/*.js'"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "antd-mobile": "^5.0.0-beta.31",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-error-boundary": "^3.1.4"
+    "react-error-boundary": "^3.1.4",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "6",
+    "react-use": "^17.3.1",
+    "redux": "^4.1.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
